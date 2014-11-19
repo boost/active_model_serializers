@@ -13,6 +13,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = "0.1.0"
 
-  gem.add_dependency 'activemodel', '~> 3.0'
-  gem.add_development_dependency "rails", "~> 3.0"
+  gem.add_dependency 'activemodel', '>= 3.0'
+  gem.add_development_dependency "rails", ">= 3.0"
 end
